@@ -1,0 +1,6 @@
+Added extension for using nested views.
+
+Example: 
+var modals = new ModalView({model: popup, context: this }); // put this code into some View
+
+Now we can call functions of the nested view from external view
